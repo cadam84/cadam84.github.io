@@ -14,3 +14,7 @@ let projects = [ {
   thumb: false,
   keywords: ['USGS', 'Earthquakes', 'Book2']
 } ]
+
+for (let i=0; i < projects.length; i++) {
+  console.log(i)
+}
