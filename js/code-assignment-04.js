@@ -1,6 +1,6 @@
 // assign values to a set of variables representing a project's metadata
 let projectId = 1
-let projectUrl = 'https://arcg.is/0bXqvu'
+let projectUrl = 'https://www.arcgis.com/apps/View/index.html?appid=6d3a5aeada7249c99c3dcc636ace0b80&extent=-479.5312,-89.5436,-119.5312,89.9990'
 let projectTitle = 'Book Assignment 2 Earthquakes'
 let projectDesc = 'This is an up to date map of earthquakes across the world, magnitude 2.5+ provided by the USGS website.'
 let projectThumb = true
@@ -9,7 +9,7 @@ let projectMapExtent = [48.51, -28.37, 2.63, -132.34]
 // create an array and assign six variables to positions 0 through 5
 let projectArray = [
   projectId, 1
-  projectUrl, 'https://arcg.is/0bXqvu'
+  projectUrl, 'https://www.arcgis.com/apps/View/index.html?appid=6d3a5aeada7249c99c3dcc636ace0b80&extent=-479.5312,-89.5436,-119.5312,89.9990'
   projectTitle, 'Book Assignment 2 Earthquakes'
   projectDesc, 'This is an up to date map of earthquakes across the world, magnitude 2.5+ provided by the USGS website.'
   projectThumb, true
@@ -19,7 +19,7 @@ let projectArray = [
 // create an object and assign six variables to property names (i.e., keys)
 let projectObject = {
   id: projectId, 1
-  url: projectUrl, 'https://arcg.is/0bXqvu'
+  url: projectUrl, 'https://www.arcgis.com/apps/View/index.html?appid=6d3a5aeada7249c99c3dcc636ace0b80&extent=-479.5312,-89.5436,-119.5312,89.9990'
   title: projectTitle, 'Book Assignment 2 Earthquakes'
   desc: projectDesc, 'This is an up to date map of earthquakes across the world, magnitude 2.5+ provided by the USGS website.'
   thumb: projectThumb, true
