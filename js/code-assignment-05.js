@@ -19,5 +19,9 @@ projectData[1] = {
 }
 
 for (let i = 0; i < projectData.length; i++) {
-  console.log('Images of Project' + projectData[i].id + ".png")
+  if (projectData[i].title === '') {
+  console.log('No title')
+  } else {
+  console.log(projectData[i].title)
+  }
 }
