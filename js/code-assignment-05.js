@@ -45,6 +45,7 @@ projectData[4] = {
   keywords: ['USGS', 'population growth', 'Book6']
 }
 
+
 for (let i = 0; i < projectData.length; i++) {
   if (projectData[i].title === '') {
   console.log('No title')
