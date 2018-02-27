@@ -18,6 +18,33 @@ projectData[1] = {
   keywords: ['USGS', 'Earthquakes', 'Book2']
 }
 
+projectData[2] = {
+  id: 3,
+  url: 'https://christaladams.maps.arcgis.com/apps/GeoForm/index.html?appid=59dd4085fc9e4dbc9948ab5fbf434fef',
+  title:'Book Assignment 3 Incidents Map',
+  desc:'This is an up to date webapp of incidents on and around LSU\'s campus.',
+  thumb: true,
+  keywords: ['USGS', 'Incidents Map', 'Book3']
+}
+
+projectData[3] = {
+  id: 4,
+  url: 'https://christaladams.maps.arcgis.com/apps/webappviewer/index.html?id=5fde3b0be2a04cb98f8424f3c70cb50a',
+  title:'Book Assignment 5 EBR Churches Webapp Builder',
+  desc:'This is a webapp with several different widgets to help you familiarize yourself with EBR churches.',
+  thumb: true,
+  keywords: ['USGS', 'churches', 'Book5']
+}
+
+projectData[4] = {
+  id: 5,
+  url: 'https://christaladams.maps.arcgis.com/apps/webappviewer/index.html?id=b479f60ce2b54071b2aa50368db7e02c',
+  title:'Book Assignment 6 US Population Growth',
+  desc:'This is a webapp with a time widget to help show US population growth.',
+  thumb: true,
+  keywords: ['USGS', 'population growth', 'Book6']
+}
+
 for (let i = 0; i < projectData.length; i++) {
   if (projectData[i].title === '') {
   console.log('No title')
