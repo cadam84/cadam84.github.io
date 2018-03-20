@@ -47,9 +47,16 @@ projectData[4] = {
 
 
 for (let i = 0; i < projectData.length; i++) {
-  if (projectData[i].title === '') {
-    console.log('No title')
+  createTitle(projectData[i].title)
+  createThumbnail(projectData[i].thumb, projectData[i].id)
+}
+function createTitle (title) {
+  console.log('Title: ' + title)
+}
+function createThumbnail (thumb, id) {
+  if (thumb === true) {
+    console.log('pictures/ss-project-' + id + ' .png')
   } else {
-    console.log(projectData[i].title)
+    console.log('pitures/no-image.png')
   }
 }
