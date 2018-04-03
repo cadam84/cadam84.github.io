@@ -17,8 +17,8 @@ map1.on('touch', function (event) {
 
 
 var latlngs = [
-    [36.159523	-86.771058],
-    [36.161914	-86.769083],
-    [36.166072	-86.771058]
+    [36.159523, -86.771058],
+    [36.161914, -86.769083],
+    [36.166072, -86.771058]
 ];
-var polyline = L.polyline(latlngs, {color: 'green'}).addTo(map1);
+var polyline = L.polyline(latlngs, {color: 'green'}).addTo(map1)
