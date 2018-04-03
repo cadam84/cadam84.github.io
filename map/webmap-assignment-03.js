@@ -11,10 +11,18 @@ let redIcon = L.icon({
 let markerCoordinates = [36.1263, -86.6774]
 let markerIcon = { icon: redIcon }
 
-let marker = L.marker(markerCoordinates, markerIcon).addTo(map3)
+let airport = L.marker(markerCoordinates, markerIcon).addTo(map3)
 
-let polygon = L.polygon([
+let stadiumArea = [
   [36.169962 , -86.774972],
   [36.166602 , -86.778319],
   [36.163795 , -86.772225]
-]).addTo(map3);
+]
+
+let stadiumStyle = {
+  color: 'green',
+  fillColor: 'green',
+  fillOpacity: 0.3
+}
+
+let stadium = L.polygon(stadiumArea, stadiumStyle).addTo(map3)
