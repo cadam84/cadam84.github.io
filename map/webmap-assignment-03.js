@@ -1,4 +1,4 @@
-let map3 = L.map('webmap3').setView([36.146193 , -86.745961], 12.5)
+let map3 = L.map('webmap3').setView([36.148173, -86.737041], 12.5)
 L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}').addTo(map3)
 
 let redIcon = L.icon({
