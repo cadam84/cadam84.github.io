@@ -11,8 +11,8 @@ let polygon = L.polygon([
 polygon.bindPopup('Nissan Stadium and Public Square Park')
 marker.bindPopup('Nashville International Airport - BNA')
 
-map1.on('touch', function (event) {
-  console.log('You touched the map of Nashville at ' + event.latlng)
+map1.on('click', function (event) {
+  console.log('You clicked the map of Nashville at ' + event.latlng)
 })
 
 
