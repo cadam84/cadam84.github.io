@@ -12,6 +12,7 @@ let markerCoordinates = [36.1263, -86.6774]
 let markerIcon = { icon: redIcon }
 
 let airport = L.marker(markerCoordinates, markerIcon).addTo(map3)
+airport.bindPopup('Nashville International Airport - BNA')
 
 let stadiumArea = [
   [36.169962 , -86.774972],
@@ -21,8 +22,9 @@ let stadiumArea = [
 
 let stadiumStyle = {
   color: 'green',
-  fillColor: 'green',
-  fillOpacity: 0.3
+  fillColor: '#bef7c0',
+  fillOpacity: 0.5
 }
 
 let stadium = L.polygon(stadiumArea, stadiumStyle).addTo(map3)
+stadium.bindPopup('Nissan Stadium and Public Square Park')
