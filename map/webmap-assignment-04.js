@@ -3,9 +3,9 @@ basemapUrl = 'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_
 L.tileLayer(basemapUrl).addTo(map4)
 
 GeojsonStyle = function (state) {
-  let age = state.properties.MED_AGE
+  let age = state.properties.ASIAN
   let stateColor = '#88b4fc'
-  if (age < 38) {stateColor = '#b9a4f2'}
+  if (age < 293000) {stateColor = '#b9a4f2'}
   let style = {
     color: stateColor,
     weight: 1.5,
@@ -16,8 +16,8 @@ GeojsonStyle = function (state) {
 
 function myPopup (state, statelayer){
   let name = state.properties.STATE_NAME
-  let age = state.properties.MED_AGE
-  statelayer.bindPopup('Median age of ' + name + ': ' + age + '<br>National average: 38')
+  let asian = state.properties.ASIAN
+  statelayer.bindPopup(name + ' has this many Asians in their population: ' + asian + '<br>The national average is 293,000')
 }
 
 GeojsonOptions = {
