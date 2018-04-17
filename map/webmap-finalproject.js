@@ -1,4 +1,4 @@
-let map6 = L.map('webmap6').setView([36.146193 , -86.745961], 12.5)
+let map6 = L.map('webmap6').setView([36.074389, -86.724014], 10)
 
 let streetbasemapURL = 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}'
 let streetbasemap = L.tileLayer(streetbasemapURL)
@@ -37,6 +37,7 @@ marker2.bindPopup('Bare Bones Butcher Shop')
 marker3.bindPopup('Carniceria San Luis')
 marker4.bindPopup('Roys Meat Service')
 marker5.bindPopup('Carnivore Meat Company')
+
 
 map6.on('click', function (event) {
   console.log('You clicked the map of Nashville at ' + event.latlng)
