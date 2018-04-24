@@ -39,6 +39,7 @@ marker4.bindPopup('Roys Meat Service')
 marker5.bindPopup('Carnivore Meat Company')
 
 
+
 map6.on('click', function (event) {
   console.log('You clicked the map of Nashville at ' + event.latlng)
 })
@@ -46,6 +47,6 @@ map6.on('click', function (event) {
 
 var latlngs = [
     [36.1580902,-86.851065],
-    [36.1811641,-86.7514921]
+    [36.033431, -86.778259]
 ];
-var polyline = L.polyline(latlngs, {color: 'purple'}).addTo(map6)
+var polyline = L.polyline(latlngs, {color: 'navy'}).addTo(map6)
