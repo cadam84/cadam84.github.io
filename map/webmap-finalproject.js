@@ -18,12 +18,6 @@ let mybasemaps = {
 
 L.control.layers(mybasemaps).addTo(map6)
 
-let markerIcon = L.icon({
-    iconUrl: 'marker-icon-orange.png',
-    iconSize: [10, 15],
-    })
-
-let markerOption = { icon: markerIcon }
 
 let marker1 = L.marker([36.182045,-86.7510467]).addTo(map6)
 let marker2 = L.marker([36.1580902,-86.851065]).addTo(map6)
